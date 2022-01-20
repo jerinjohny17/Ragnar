@@ -68,7 +68,15 @@ These are the extra features of Ragnar
 • /id - <code>get id of a specified user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>"""
+• /search  - <code>get the film information from various sources.</code>
+
+
+<b>File Store</b>
+
+• /link - <code>generate shareable link for single file by replying to it.</code>
+• /batch - <code>generate shareable link for multiple files. Eg. Format: /batch https://t.me/tgfiles/10 https://t.me/tgfiles/20</code>
+• /plink - <code>generate link for single file with Forward Protection.</code>
+• /pbatch - <code>generate link for multiple files with Forward Protection.</code>"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
