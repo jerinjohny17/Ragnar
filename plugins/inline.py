@@ -85,8 +85,7 @@ async def answer(bot, query):
         except QueryIdInvalid:
             pass
         except Exception as e:
-            logging.exception(str(e)) 
-           
+            logging.exception(str(e))           
     else:
         switch_pm_text = f'{emoji.CROSS_MARK} No results'
         if string:
