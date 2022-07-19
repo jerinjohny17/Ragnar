@@ -42,7 +42,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = "True"
-CUSTOM_FILE_CAPTION = "<b>Name:</b> <code>{file_name}</code>\n<b>Size:</b> <code>{file_size}</code>\n<b>Type:</b> <code>{mime_type}</code>"
+CUSTOM_FILE_CAPTION = "<b>Name:</b> <code>{file_name}</code>\n\n<b>Size:</b> <code>{file_size}</code>\n<b>Type:</b> <code>{mime_type}</code>"
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION")
 IMDB_TEMPLATE = "<b>🏷 Title</b>: <a href={url}>{title}</a>\n<b>🎭 Genres:</b> {genres}\n<b>📆 Released on:</b> <a href={url}/releaseinfo>{release_date}</a>\n<b>🌟 Rating:</b> {rating} / 10 (based on {votes} user ratings.)\n<b>⌚ Duration:</b> {runtime} minutes\n<b>🗣️ Languages:</b> {languages}"
 IMDB_TEMPLATE2 = environ.get("IMDB_TEMPLATE2")
